@@ -6,7 +6,7 @@ body, html {
 .header {
     display: flex;
     justify-content: space-around;
-    background-color: #D41616;
+    background: linear-gradient( to bottom, #D41616, #545558);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -24,7 +24,8 @@ body, html {
 .grid-item {
     display: flex;
     border: 1px solid #ccc; /* Apenas para visualizar os itens */
-    background: linear-gradient( to bottom, #D41616, #6C6E79)
+    flex-direction: column;
+    font-size: 1.5rem;
 }
 .grid-item h1{
     font-size: 50px;
@@ -58,24 +59,25 @@ body, html {
     unicode-bidi: isolate;
 }
 .grid-item ul p{
-    font-size: 14px;
     margin: 0 0;
 }
 .item1{
-display: flex;
+    display: flex;
     flex-direction: column;
+    background: linear-gradient( to bottom, #D41616, #abacb1)
 }
 .item2{
     display: flex;
     flex-direction: column;
     margin: 0 0 0 0;    
+    background: linear-gradient( to bottom, #abacb1,#D41616)
 }
 .item2 h2{
     text-align: center;
     color: rgb(0, 0, 0);
     border: 1px  solid rgb(250, 250, 21);
-    border-radius: 40%;
-    width: 100px;
+    border-radius: 30%;
+    width: 150px;
     background-color: rgb(250, 250, 21);
     margin: 0 auto;
 }
@@ -105,6 +107,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     margin: 0 0 0 0;
+    background: linear-gradient( to bottom, #D41616, #abacb1)
 }
 .saboresPower{
     display: flex;
@@ -117,4 +120,7 @@ display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+.carneSeca{
+    color: red
 }
