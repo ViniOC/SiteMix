@@ -124,3 +124,43 @@ body, html {
 .carneSeca{
     color: red
 }
+
+@media screen and (max-width:  600px){
+    .header{
+        font-size: 16px;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .grid-item {
+        margin: 10px;
+    }
+    .header {
+        font-size: 20px;
+    }
+    .header img {
+        width: 100px;
+        height: 80px;
+    }
+    .grid-item h1{
+        font-size: 30px;
+    }
+    .grid-item h4{
+        font-size: 16px;
+    }
+    .grid-item h5{
+        font-size: 14px;
+    }
+    .item2 h2{
+        font-size: 12px;
+    }
+    .item2 h2 span{
+        font-size: 10px;
+    }
+    .grid-item ul p{
+        font-size: 12px;
+    }
+    .borda{
+        margin-top: 20px;
+    }
+}
